@@ -1,0 +1,36 @@
+.button{
+    height:30px;
+    width: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+#fontSize1{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+#font{
+    font-size: 18px;
+    margin-right: 20px;
+}
+.bold{
+    font-weight:normal;
+}
+.italic{
+    font-style: italic;
+   
+}
+.underline{
+    text-decoration: underline;
+}
+#editor{
+    width:100%;
+    height:500px;
+    font-size:16px;
+    border:1px solid black;
+}
+#editor:focus {
+
+    cursor: auto;
+}
