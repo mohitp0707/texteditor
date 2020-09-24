@@ -259,9 +259,10 @@ function italic(){
       function imageupload(event){
         //  console.log(URL.createObjectURL(event.target.files[0]));
        if(event.target.files[0].type =='image/jpeg' || event.target.files[0].type =='image/png'){  // check type of upload file
-            var image = '<span><img  src='+URL.createObjectURL(event.target.files[0])+'  width="100px" height="100px"></span>'; 
+            var image = '<span><img  src='+URL.createObjectURL(event.target.files[0])+'  width="100px" height="100px"></span>&nbsp;'; 
             var text = window.getSelection();
             var sel, range, node;
+            let nodespace= document.createTextNode( '\u00A0' )
             if (window.getSelection) {
             sel = window.getSelection();
             if (sel.getRangeAt && sel.rangeCount) {
