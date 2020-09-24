@@ -3,8 +3,6 @@ function onload(){
     var elem = document.getElementById('editor');
     elem.contentEditable=true;
     elem.focus();
-
-
 }
 
 var incrementno=''; // for genearte unique id for generated span
